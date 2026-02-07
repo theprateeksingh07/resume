@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prateek Singh | Software Developer</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: radial-gradient(circle at top, #111827 0%, #0B0E14 70%);
+    }
+
+    .fade-up {
+      animation: fadeUp 0.9s ease forwards;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .gradient-text {
+      background: linear-gradient(90deg, #6D28D9, #2563EB, #F97316);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .card {
+      background: linear-gradient(145deg, #111827, #0B0E14);
+      border: 1px solid #1F2937;
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      border-color: #2563EB;
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(37, 99, 235, 0.15);
+    }
+  </style>
+</head>
+
+<body class="text-[#F9FAFB] font-sans">
+
+<!-- NAVBAR -->
+<nav class="fixed w-full bg-[#0B0E14]/80 backdrop-blur border-b border-[#1F2937] z-50">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="font-semibold tracking-wide">Prateek Singh</h1>
+    <div class="space-x-6 text-sm text-[#9CA3AF]">
+      <a href="#projects" class="hover:text-white">Work</a>
+      <a href="#about" class="hover:text-white">About</a>
+      <a href="#skills" class="hover:text-white">Skills</a>
+      <a href="#contact" class="hover:text-white">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="min-h-screen flex items-center px-6 pt-32">
+  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+
+    <div class="fade-up">
+      <p class="text-sm uppercase tracking-widest text-[#F97316]">
+        SOFTware DEVeloper
+      </p>
+
+      <h1 class="mt-6 text-5xl md:text-6xl font-bold leading-tight">
+        Building
+        <span class="gradient-text">modern web systems</span><br />
+        that ship to real users
+      </h1>
+
+      <p class="mt-6 text-[#9CA3AF] max-w-xl">
+        I build production-ready web applications and intelligent systems,
+        with experience across business websites and government-scale projects.
+      </p>
+
+      <div class="mt-10 flex flex-wrap items-center gap-4">
+
+  <!-- PRIMARY CTA -->
+  <a href="#projects"
+     class="px-6 py-3 rounded-lg bg-[#2563EB] text-white font-medium hover:opacity-90">
+    View Work
+  </a>
+
+  <!-- SECONDARY CTA -->
+  <a href="#contact"
+     class="px-6 py-3 rounded-lg border border-[#1F2937] hover:border-[#2563EB]">
+    Let’s Talk
+  </a>
+
+  <!-- SOCIALS -->
+  <div class="flex items-center gap-3 ml-2">
+
+    <!-- GitHub -->
+    <a href="https://github.com/theprateeksingh07"
+       target="_blank"
+       class="p-3 rounded-lg border border-[#1F2937] hover:border-[#2563EB] hover:text-white transition"
+       aria-label="GitHub">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.1 3.29 9.43 7.86 10.96.58.1.79-.25.79-.56v-2.02c-3.2.7-3.87-1.55-3.87-1.55-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.3 1.19-3.11-.12-.3-.52-1.52.11-3.17 0 0 .97-.31 3.18 1.19a11.1 11.1 0 012.9-.39c.98 0 1.97.13 2.9.39 2.2-1.5 3.17-1.19 3.17-1.19.64 1.65.24 2.87.12 3.17.74.81 1.18 1.85 1.18 3.11 0 4.43-2.68 5.4-5.24 5.68.41.36.78 1.06.78 2.14v3.18c0 .31.21.67.8.56a11.52 11.52 0 007.85-10.96C23.5 5.74 18.27.5 12 .5z"/>
+      </svg>
+    </a>
+
+    <!-- Instagram -->
+    <a href="https://instagram.com/buildwith_prateek"
+       target="_blank"
+       class="p-3 rounded-lg border border-[#1F2937] hover:border-[#F97316] hover:text-white transition"
+       aria-label="Instagram">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5a4.25 4.25 0 004.25-4.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 1.5a3.5 3.5 0 100 7 3.5 3.5 0 000-7zm4.75-.88a1.13 1.13 0 110 2.25 1.13 1.13 0 010-2.25z"/>
+      </svg>
+    </a>
+
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/prateek-singh-714567261/"
+       target="_blank"
+       class="p-3 rounded-lg border border-[#1F2937] hover:border-[#2563EB] hover:text-white transition"
+       aria-label="LinkedIn">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M4.98 3.5a2.5 2.5 0 110 5 2.5 2.5 0 010-5zM3 8.98h3.96V21H3V8.98zM9.75 8.98h3.79v1.64h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.65 4.77 6.09V21h-3.96v-5.43c0-1.3-.02-2.97-1.81-2.97-1.82 0-2.1 1.42-2.1 2.88V21H9.75V8.98z"/>
+      </svg>
+    </a>
+
+  </div>
+</div>
+
+    </div>
+
+    <div class="relative flex justify-center fade-up">
+      <div class="relative w-80 h-80 rounded-full border border-dashed border-[#6D28D9] flex items-center justify-center">
+        <img
+          src="./images/prateek.jpg"
+          alt="Prateek Singh"
+          class="w-64 h-64 object-cover rounded-full border-4 border-[#0B0E14]"
+        />
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="py-28 px-6 bg-[#0B0E14]">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-semibold mb-12">Selected Work</h2>
+
+    <div class="space-y-8">
+
+      <div class="card p-6 rounded-xl grid md:grid-cols-3 gap-6">
+        <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d"
+             class="rounded-lg" alt="Apex Digital"/>
+        <div class="md:col-span-2">
+          <h3 class="text-xl font-semibold">Apex Digital</h3>
+          <p class="text-[#9CA3AF] mt-2">
+            Designed and developed a modern business website focused on performance,
+            responsiveness, and real client usage.
+          </p>
+          <a href="https://github.com/theprateeksingh07/Apex-Digital"
+             class="inline-block mt-4 text-[#2563EB]">
+            View on GitHub →
+          </a>
+        </div>
+      </div>
+
+      <div class="card p-6 rounded-xl grid md:grid-cols-3 gap-6">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+             class="rounded-lg" alt="Urban Congestion"/>
+        <div class="md:col-span-2">
+          <h3 class="text-xl font-semibold">Urban Congestion</h3>
+          <p class="text-[#9CA3AF] mt-2">
+            Government-focused traffic management system designed under
+            security and scalability constraints. Repository is private.
+          </p>
+          <span class="inline-block mt-4 text-sm text-[#9CA3AF]">
+            Private • Government Project
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-28 px-6 bg-[#111827]">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16">
+    <div class="text-[#9CA3AF] space-y-6">
+      <p>
+        I’m a software developer currently pursuing BTech in Computer Science,
+        focused on building real-world systems beyond academic projects.
+      </p>
+      <p>
+        I enjoy working across frontend engineering, AI tooling, and scalable
+        application architecture while continuously learning through hands-on work.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-2 gap-6">
+      <div class="card p-6 rounded-xl">
+        <h3 class="text-3xl font-semibold text-[#F97316]">10+</h3>
+        <p class="text-sm text-[#9CA3AF]">Projects Built</p>
+      </div>
+      <div class="card p-6 rounded-xl">
+        <h3 class="text-3xl font-semibold text-[#F97316]">2+</h3>
+        <p class="text-sm text-[#9CA3AF]">Years Experience</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="py-24 px-6">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-semibold mb-10">Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-[#9CA3AF]">
+      <span class="card p-3 rounded-lg text-center">HTML</span>
+      <span class="card p-3 rounded-lg text-center">CSS</span>
+      <span class="card p-3 rounded-lg text-center">Java</span>
+      <span class="card p-3 rounded-lg text-center">Python</span>
+      <span class="card p-3 rounded-lg text-center">React</span>
+      <span class="card p-3 rounded-lg text-center">Tailwind</span>
+      <span class="card p-3 rounded-lg text-center">SQL</span>
+      <span class="card p-3 rounded-lg text-center">Three.js</span>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-24 px-6 bg-[#0B0E14]">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-semibold mb-6">Contact</h2>
+    <div class="space-y-3 text-[#9CA3AF]">
+      <p>Email: <a href="mailto:work.prateek07@gmail.com" class="text-[#2563EB]">work.prateek07@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/theprateeksingh07" class="text-[#2563EB]">theprateeksingh07</a></p>
+      <p>Instagram: <a href="https://instagram.com/buildwith_prateek" class="text-[#2563EB]">@buildwith_prateek</a></p>
+    </div>
+  </div>
+</section>
+
+<footer class="py-6 text-center text-sm text-[#9CA3AF] border-t border-[#1F2937]">
+  © 2026 Prateek Singh
+</footer>
+
+</body>
+</html>
